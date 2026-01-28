@@ -1,6 +1,5 @@
 package llua;
 
-
 @:include('linc_lua.h')
 @:native('::cpp::Reference<lua_State>')
 extern class State {}
@@ -9,7 +8,6 @@ extern class State {}
 extern class Lua_State {}
 
 typedef StatePointer = cpp.RawPointer<Lua_State>;
-
 
 // @:native("lua_State")
 // @:include('linc_lua.h')
